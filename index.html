@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ООО "СмолДиАл" - Строительные работы в Смоленске</title>
+    <meta name="description" content="ООО 'СмолДиАл' - профессиональные строительные услуги в Смоленске и области. Земляные работы, прокладка коммуникаций, монолитные работы, исполнительная документация.">
+    <meta name="keywords" content="строительные работы Смоленск, земляные работы, прокладка коммуникаций, монолитные работы, исполнительная документация, строительство дорог, ООО СмолДиАл">
+    <meta name="author" content="ООО 'СмолДиАл'">
+    <meta property="og:title" content="ООО 'СмолДиАл' - Строительные работы в Смоленске">
+    <meta property="og:description" content="Профессиональные строительные услуги в Смоленске и области. Более 10 лет опыта в строительстве.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ooosmoldial.ru">
+    <meta property="og:image" content="https://ooosmoldial.ru/images/og-image.jpg">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="ООО СмолДиАл">
+    <link rel="canonical" href="https://ooosmoldial.ru/" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <style>
         :root {
             --primary: #2c3e50;
@@ -237,16 +251,74 @@
 
         .contact-info {
             flex: 1;
+            background-color: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 8px;
         }
 
         .contact-info h3 {
-            margin-bottom: 15px;
-            font-size: 20px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: white;
         }
 
         .contact-info p {
-            margin-bottom: 12px;
-            font-size: 14px;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .contact-info a {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .requisites {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .requisites h3 {
+            color: #000000;
+            margin-bottom: 25px;
+            font-size: 26px;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--secondary);
+        }
+
+        .requisites-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .requisites-table th, 
+        .requisites-table td {
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            text-align: left;
+            font-size: 18px;
+        }
+
+        .requisites-table th {
+            background-color: #f8f9fa;
+            width: 30%;
+            font-weight: 700;
+            color: #000000;
+        }
+
+        .requisites-table td {
+            background-color: #ffffff;
+            width: 70%;
+            color: #000000;
+            font-weight: 500;
+        }
+
+        .requisites-table tr:nth-child(even) td {
+            background-color: #f8f9fa;
         }
 
         .contact-form {
@@ -295,7 +367,6 @@
             font-size: 14px;
         }
 
-        /* Мобильная версия */
         @media (min-width: 768px) {
             .logo {
                 font-size: 24px;
@@ -382,6 +453,11 @@
                 font-size: 16px;
             }
             
+            .requisites-table th, 
+            .requisites-table td {
+                font-size: 18px;
+            }
+            
             .form-group input,
             .form-group textarea {
                 padding: 10px;
@@ -390,6 +466,35 @@
             
             .form-group textarea {
                 height: 120px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .requisites-table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+            
+            .requisites-table th,
+            .requisites-table td {
+                padding: 12px;
+                font-size: 16px;
+                min-width: 200px;
+                display: table-cell;
+                white-space: normal;
+                border: 2px solid #e0e0e0;
+            }
+            
+            .requisites-table th {
+                background-color: #e9ecef;
+                font-weight: 700;
+                color: #000;
+            }
+            
+            .requisites-table td {
+                color: #000;
+                font-weight: 500;
             }
         }
     </style>
@@ -507,39 +612,66 @@
                 <div class="gallery-item"><img src="https://i.postimg.cc/qB6qg3jj/7.png" alt="Строительный проект"></div>
                 <div class="gallery-item"><img src="https://i.postimg.cc/8P85vzYD/8.png" alt="Строительный проект"></div>
                 <div class="gallery-item"><img src="https://i.postimg.cc/W1T19fjH/9.png" alt="Строительный проект"></div>
-                <div class="gallery-item"><img src="https://i.postimg.cc/rFSpNL64/10.png" alt="Строительный проект"></div>
+                <div class="gallery-item"><img src="https://i.postimg.cc/Pqq5654R/photo-2025-04-09-14-00-54.jpg" alt="Строительный проект"></div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="section contact">
         <div class="container">
-            <h2 class="section-title">Контакты</h2>
+            <h2 class="section-title" style="color: white;">Контакты</h2>
             <div class="contact-container">
                 <div class="contact-info">
                     <h3>Свяжитесь с нами</h3>
-                    <p><strong>Адрес:</strong> Смоленск, ул. Строителей, 15</p>
-                    <p><strong>Телефон:</strong> +7 (XXX) XXX-XX-XX</p>
-                    <p><strong>Email:</strong> info@smoldial.ru</p>
+                    <p><strong>Телефон:</strong> <a href="tel:+79190454240" style="color: #3498db;">8 (919) 045-42-40</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:ooosmoldial@mail.ru" style="color: #3498db;">ooosmoldial@mail.ru</a></p>
+                    <p><strong>Юридический адрес:</strong><br>
+                    216740, Смоленская область,<br>
+                    Руднянский район, п. Гольнки,<br>
+                    ул. Набережная, д. 2, кв. 15</p>
                     <p><strong>Часы работы:</strong> Пн-Пт: 9:00 - 18:00</p>
                 </div>
-                <div class="contact-form">
-                    <h3>Оставьте заявку</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Ваше имя</label>
-                            <input type="text" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Телефон</label>
-                            <input type="tel" id="phone" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Сообщение</label>
-                            <textarea id="message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Отправить</button>
-                    </form>
+                
+                <div class="requisites">
+                    <h3>Реквизиты компании</h3>
+                    <table class="requisites-table">
+                        <tr>
+                            <th>Наименование организации</th>
+                            <td style="color: #000000; font-weight: 700;">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СМОЛДИАЛ"</td>
+                        </tr>
+                        <tr>
+                            <th>ИНН</th>
+                            <td style="color: #e74c3c; font-weight: 700;">6700024953</td>
+                        </tr>
+                        <tr>
+                            <th>КПП</th>
+                            <td style="color: #e74c3c; font-weight: 700;">670001001</td>
+                        </tr>
+                        <tr>
+                            <th>ОГРН</th>
+                            <td style="color: #e74c3c; font-weight: 700;">1246700016551</td>
+                        </tr>
+                        <tr>
+                            <th>Дата регистрации</th>
+                            <td style="color: #3498db; font-weight: 600;">14 ноября 2024 года</td>
+                        </tr>
+                        <tr>
+                            <th>Основной вид деятельности</th>
+                            <td style="color: #000000;">Строительство автомобильных дорог и автомагистралей (ОКВЭД 42.11)</td>
+                        </tr>
+                        <tr>
+                            <th>Генеральный директор</th>
+                            <td style="color: #000000; font-weight: 700;">Алексеенков Дмитрий Геннадьевич</td>
+                        </tr>
+                        <tr>
+                            <th>Юридический адрес</th>
+                            <td style="color: #000000;">216740, Смоленская область, Руднянский район, поселок Гольнки, улица Набережная, дом 2, квартира 15</td>
+                        </tr>
+                        <tr>
+                            <th>Почтовый адрес</th>
+                            <td style="color: #000000;">216740, Смоленская область, Руднянский район, поселок Гольнки, улица Набережная, дом 2, квартира 15</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
