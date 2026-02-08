@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши работы — ООО «СмолДиАл»</title>
+
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --dark: #2c3e50;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: var(--secondary);
+        }
+
+        .section {
+            padding: 60px 0;
+            background: white;
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 28px;
+            color: var(--dark);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-item img {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <div style="font-weight:700;">ООО <span style="color:#3498db">СмолДиАл</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html#about">О компании</a></li>
+                <li><a href="index.html#services">Услуги</a></li>
+                <li><a href="works.html">Галерея</a></li>
+                <li><a href="index.html#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- АЛЬБОМ 1 -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">2025 год — Благоустройство ГРС Жуково</h2>
+        <div class="gallery-grid">
+            <!-- вставлены все фото -->
+            <div class="gallery-item"><img src="https://i.postimg.cc/q7fNTYGH/photo-1-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/TPrpY9kV/photo-10-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/0QPr6w3K/photo-10-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/V6m5SCTC/photo-11-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/mDBhcHq9/photo-12-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/s2FMr8J3/photo-2-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/FKtY4qxs/photo-2-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/N0hKcVxs/photo-3-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/3wMkT6Zr/photo-3-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/wBh7TVWz/photo-4-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/g0vnkDMd/photo-4-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/43zmN58J/photo-5-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/ZqrCKcfY/photo-5-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/YS1hq3XS/photo-6-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/cJQr4mDL/photo-6-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/QMpHxb6C/photo-7-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/nLvCckdM/photo-7-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/6Qdy50H8/photo-8-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/YS1hq3XG/photo-8-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/1zpf5HWN/photo-9-2026-02-08-20-06-26.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/Lszn6TyB/photo-9-2026-02-08-20-06-53.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/qv2k872F/photo-1-2026-02-08-20-06-26.jpg"></div>
+        </div>
+    </div>
+</section>
+
+<!-- АЛЬБОМ 2 -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">2025 год — ГРС Жуково АД укладка труб ВПТ</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://i.postimg.cc/9XNTkLsR/photo-1-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/5NYvWwMQ/photo-10-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/02Mm1pqw/photo-11-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/9FRTHGjF/photo-2-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/KvkLhnyG/photo-3-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/bNDbfQjz/photo-4-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/PrpZnmk5/photo-5-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/L6YfFzMs/photo-6-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/gkXRbvPj/photo-7-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/MKMRJy8T/photo-8-2026-02-08-20-18-07.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/RV6fxczq/photo-9-2026-02-08-20-18-07.jpg"></div>
+        </div>
+    </div>
+</section>
+
+<!-- АЛЬБОМ 3 -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">
+            2025 год — ГРС Жуково<br>
+            Реконструкция АД к крановым узлам и ГРС
+        </h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://i.postimg.cc/HkmQ0Vf8/photo-1-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/fRvY8MsZ/photo-10-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/P5M1SdHH/photo-11-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/TPYgSBdz/photo-12-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/PqrYc0X9/photo-13-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/KYvBVCcS/photo-14-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/1z5wTbRZ/photo-15-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/SKNC5HQq/photo-16-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/g0k851cp/photo-17-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/7LY0cjPY/photo-18-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/xdTM7Bj8/photo-19-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/8zGhdjqH/photo-2-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/TPYgSB2w/photo-20-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/GphGN639/photo-21-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/VNLnT2s0/photo-22-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/zfXKM4Dg/photo-23-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/0N2D3h5S/photo-24-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/dVF8RLz6/photo-3-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/bwPQ0sK0/photo-4-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/wjzh57SF/photo-5-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/y8T0L7HL/photo-6-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/JzQjpRL6/photo-7-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/y8T0L7Hp/photo-8-2026-02-08-20-20-34.jpg"></div>
+            <div class="gallery-item"><img src="https://i.postimg.cc/cLcfFdS5/photo-9-2026-02-08-20-20-34.jpg"></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        © 2024 ООО «СмолДиАл». Все права защищены.
+    </div>
+</footer>
+
+</body>
+</html>
